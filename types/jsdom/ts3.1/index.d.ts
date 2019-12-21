@@ -166,6 +166,8 @@ export interface DOMWindow extends Window {
     NodeIterator: typeof NodeIterator;
     TreeWalker: typeof TreeWalker;
     NamedNodeMap: typeof NamedNodeMap;
+    MutationObserver: typeof MutationObserver;
+    MutationRecord: typeof MutationRecord;
     URL: typeof URL;
     URLSearchParams: typeof URLSearchParams;
 

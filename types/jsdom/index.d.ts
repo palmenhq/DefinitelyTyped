@@ -1,7 +1,7 @@
 // Type definitions for jsdom 12.2
 // Project: https://github.com/jsdom/jsdom
 // Definitions by: Leonard Thieu <https://github.com/leonard-thieu>
-//                 Johan Palmfjord <https://github.com/palmfjord>
+//                 Johan Palmfjord <https://github.com/palmenhq>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 // TypeScript Version: 2.2
 
@@ -169,6 +169,8 @@ export interface DOMWindow extends Window {
     NodeIterator: typeof NodeIterator;
     TreeWalker: typeof TreeWalker;
     NamedNodeMap: typeof NamedNodeMap;
+    MutationObserver: typeof MutationObserver;
+    MutationRecord: typeof MutationRecord;
     URL: typeof URL;
     URLSearchParams: typeof URLSearchParams;
 
